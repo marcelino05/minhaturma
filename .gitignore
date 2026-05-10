@@ -1,0 +1,28 @@
+# dependências do Node
+node_modules/
+
+# variáveis de ambiente (SEGURANÇA)
+.env
+.env.*
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# cache
+.cache/
+
+# sistema
+.DS_Store
+Thumbs.db
+
+# editores
+.vscode/
+.idea/
+
+# builds (se existir futuramente)
+dist/
+build/
